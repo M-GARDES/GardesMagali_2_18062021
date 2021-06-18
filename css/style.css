@@ -1,53 +1,9 @@
-@font-face {
-     font-family: "raleway-regular-webfont";
-     src: url('font/raleway-webfont.eot');
-     src:url('font/raleway-regular-webfont.ttf') format('truetype'),
-         url('font/raleway-regular-webfont.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('font/raleway-regular-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('font/raleway-regular-webfont.svg') format('svg');
-         font-size: normal;
-}  
-@media all and (orientation: portrait)
-{
-    #bloc_page
-    {
-        width: auto;
-    }
-    nav ul
-    {
-        flex-direction: column;
-    }
-    section     
-    {
-        flex-direction: column;
-        margin: auto;
-    }
-    .spanico
-    {
-        flex-direction: column;
-    }
-     footer
-    {
-     flex-direction: column;
-    }
-    .S2 
-    {
-     flex-direction: column;    
-    }
-    .aside
-    {
-     flex-direction: column; 
-    }
-    .sol{
-     flex-direction: column;    
-    }
-} 
+  
 body{
-     min-width: 400px;
-     font-family:"raleway-regular-webfont";
+     font-family: 'Raleway', Arial, Helvetica, sans-serif, serif;
 }
 .bloctotal{
-     width: 900px;
+     max-width: 900px;
      margin: auto;
 }
 header{
@@ -163,8 +119,7 @@ header{
      margin-left: 30px;   
 }
 section{
-     display: flex;
-     margin-left: 80px;
+     display: flex; 
 }
 section img{
      width: 290px;
@@ -178,7 +133,6 @@ section img{
     border-radius: 25px 25px 25px 25px;
     background-color: rgb(241, 239, 239); 
     margin-bottom: 60px; 
-    margin-right: 20px;
     padding: 10px 0px 10px 20px;
     margin: auto;
     flex: 3;
@@ -221,7 +175,7 @@ h4{
 aside{
     flex: 1.2;
     position: relative;
-  justify-items: stretch;
+    justify-items: stretch;
     margin-right: 70px;
     margin-left: 50px;
     flex-direction: column;
@@ -354,3 +308,14 @@ footer{
      margin-right: 400px;
      margin-bottom: 20px;
 }
+@media all and (orientation: portrait)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    section{
+     display: flex; 
+     flex-direction: column;
+}
+}   
