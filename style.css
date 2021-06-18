@@ -1,0 +1,356 @@
+@font-face {
+     font-family: "raleway-regular-webfont";
+     src: url('font/raleway-webfont.eot');
+     src:url('font/raleway-regular-webfont.ttf') format('truetype'),
+         url('font/raleway-regular-webfont.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('font/raleway-regular-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('font/raleway-regular-webfont.svg') format('svg');
+         font-size: normal;
+}  
+@media all and (orientation: portrait)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    section     
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+    .spanico
+    {
+        flex-direction: column;
+    }
+     footer
+    {
+     flex-direction: column;
+    }
+    .S2 
+    {
+     flex-direction: column;    
+    }
+    .aside
+    {
+     flex-direction: column; 
+    }
+    .sol{
+     flex-direction: column;    
+    }
+} 
+body{
+     min-width: 400px;
+     font-family:"raleway-regular-webfont";
+}
+.bloctotal{
+     width: 900px;
+     margin: auto;
+}
+header{
+     margin: auto;
+}
+.logo{
+     height: 50px;
+     width: 100px;
+}
+#titre nav ul{
+     list-style-type: none;
+     display: flex; 
+}
+#titre  nav a{
+     color: black;
+     margin: 50px;
+     padding-bottom: 3px;
+     text-decoration: overline;
+}
+#titre nav a:hover{
+     color: #0065FC;
+     border-bottom: 5px solid #F2F2F2;
+}
+#titre{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     margin: 0px 50px 0px 60px;
+}
+#titre .a{
+     justify-content: space-between;
+}
+.menurecherche{
+     display:  flex;
+     margin-top: 10px;
+     margin-left: 70px;
+     margin-bottom: 10px;
+}
+#titre .sinsc{
+     color: #0065FC;
+     text-decoration-style: double;
+     margin-left: 50px;
+}
+.BOU{
+     width: 280px;
+}
+.bout{
+    width: 150px;
+    font-size: 20px;
+    background-color: #0065FC;
+    color: white; 
+    border-radius: 0 15px 15px 0; 
+    border-color: #0065FC;  
+}
+.T2{
+     margin-left: 60px;
+}
+.tt2{
+     font-size: 25px;
+     font-weight:  bolder;
+     margin: auto;
+}
+.ptt2{
+     font-size: 20px;
+}
+.icomark{
+     text-align: center;
+     width: 40px;
+     padding: 3px;
+     color: #0065FC;
+     background-color: #c4bdbd;
+     font-size: 30px;
+     border: 1.8px #F2F2F2 solid;
+     border-radius: 15px 0 0 15px;
+}
+.icoinfo{
+     margin-left: 50px;
+}
+.icoinfo i{
+     color: #0065FC;    
+     font-size: 14px;
+     margin-right: 5px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid grey;
+     padding: 5px 10px;
+}
+#Filtr{
+     font-size: 25px;
+     display: flex;
+     justify-content: baseline;
+     margin-left: 60px;
+}
+.spanico{
+     display: flex;
+     justify-content: baseline;
+     justify-content: space-between;
+
+}
+.icoEco{
+     color: #0065FC;
+     padding: 6px;
+     background-color: #DEEBFF;
+     border: 1px solid rgb(189, 185, 185);
+     border-radius: 50px 50px 50px 50px;
+}
+.Eco{
+     border: 1px solid rgb(189, 185, 185);
+     border-radius: 50px 50px 50px 50px;
+     padding: 4px;
+     padding-left: 0px; 
+     margin-right: 50px; 
+     margin-left: 30px;   
+}
+section{
+     display: flex;
+     margin-left: 80px;
+}
+section img{
+     width: 290px;
+     height: 140px;
+     border-radius: 25px 25px 0px 0px;
+     float: left;
+     margin: auto;
+}
+.A1{
+    border: 1px solid rgb(241, 239, 239);
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgb(241, 239, 239); 
+    margin-bottom: 60px; 
+    margin-right: 20px;
+    padding: 10px 0px 10px 20px;
+    margin: auto;
+    flex: 3;
+}
+#HBRG1{
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin: auto;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+#HBRG2{
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin: auto; 
+     padding: 20px;
+}
+h4{
+     font-size: 20px;
+     margin-left: 70px;
+     font-weight: bolder;
+     justify-content: space-around;
+}
+.Aub{
+    border: 1px solid white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 8px;
+    background-color: white; 
+    box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+    margin-right: 60px;
+    font-size: 15px;
+}    
+.Aff{
+     display: flex;
+     margin: 40px 30px 10px 70px;
+     font-weight: bolder;
+}
+aside{
+    flex: 1.2;
+    position: relative;
+  justify-items: stretch;
+    margin-right: 70px;
+    margin-left: 50px;
+    flex-direction: column;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: rgb(241, 239, 239);
+    border-radius: 25px;
+    font-size: 15px;
+}
+aside img{
+     width: 160px;
+     height: 140px;
+     float: left;
+     border-radius: 25px 0px 0px 25px; 
+     margin: auto; 
+     margin-right: 15px;
+
+}
+.Actii{
+     margin-left: 80px;
+}
+aside span{
+     float: right;
+} 
+.sol{
+     margin: auto;
+     margin-bottom: 50px;
+     width: 420px;
+     height: 140px;
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     padding: 10px 10px 10px 10px;
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+}
+.fas-fa-star-bleu{
+  color: #0065FC;
+}
+.fas-fa-star-grey{
+     color: gray;
+}
+.S2{  
+     justify-content: space-around;
+     display: flex;
+     margin: auto;
+}
+.S2 img{
+     border-radius: 25px 25px 0px 0px;
+     margin-bottom: 10px;
+}
+h5{
+     margin-left: 20px;
+     font-weight: bold;
+     font-size: 15px;
+     text-align:left;
+}
+.ao{
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white; 
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+     margin-bottom: 30px;
+}
+.ao1{
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white; 
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+     margin-bottom: 20px;
+}
+.ao2{
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white; 
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+     margin-bottom: 30px;
+}
+.ao3{
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white; 
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+     margin-bottom: 20px;
+}
+.ao4{
+     border: 1px solid white;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white; 
+     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
+}
+.port{
+     width: 330px;
+     height: 450px;    
+}
+.Mègues{
+     width: 330px;
+     height: 190px;
+} 
+.Iles{
+     width: 330px;
+     height: 195px; 
+}
+.Cal{
+     width: 330px;
+     height: 450px;
+}
+.Ndame{
+     width: 330px;
+     height: 195px;
+}
+.longch{
+     width: 330px;
+     height: 195px;
+}
+footer{
+     color: black;
+     margin-left: 5px;
+     border: 1px solid rgb(241, 239, 239);
+     border-radius: 5px 5px 5px 5px;
+     background-color: rgb(241, 239, 239); 
+     display: flex;
+     padding-left: 20px;
+     margin-bottom: 30px;
+
+}
+.foot a{
+     color: black;
+     text-decoration: none;
+}
+.foot{
+     margin-right: 400px;
+     margin-bottom: 20px;
+}
