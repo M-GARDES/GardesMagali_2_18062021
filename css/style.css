@@ -1,321 +1,422 @@
-  
-body{
-     font-family: 'Raleway', Arial, Helvetica, sans-serif, serif;
+/*GNRL*/
+#html,body{
+   font-family: Raleway;
 }
-.bloctotal{
-     max-width: 900px;
-     margin: auto;
-}
-header{
-     margin: auto;
-}
-.logo{
-     height: 50px;
-     width: 100px;
-}
-#titre nav ul{
-     list-style-type: none;
-     display: flex; 
-}
-#titre  nav a{
-     color: black;
-     margin: 50px;
-     padding-bottom: 3px;
-     text-decoration: overline;
-}
-#titre nav a:hover{
-     color: #0065FC;
-     border-bottom: 5px solid #F2F2F2;
-}
-#titre{
-     display: flex;
-     justify-content: space-between;
-     flex-direction: row;
-     margin: 0px 50px 0px 60px;
-}
-#titre .a{
-     justify-content: space-between;
-}
-.menurecherche{
-     display:  flex;
-     margin-top: 10px;
-     margin-left: 70px;
-     margin-bottom: 10px;
-}
-#titre .sinsc{
-     color: #0065FC;
-     text-decoration-style: double;
-     margin-left: 50px;
-}
-.BOU{
-     width: 280px;
-}
-.bout{
-    width: 150px;
-    font-size: 20px;
-    background-color: #0065FC;
-    color: white; 
-    border-radius: 0 15px 15px 0; 
-    border-color: #0065FC;  
-}
-.T2{
-     margin-left: 60px;
-}
-.tt2{
-     font-size: 25px;
-     font-weight:  bolder;
-     margin: auto;
-}
-.ptt2{
-     font-size: 20px;
-}
-.icomark{
-     text-align: center;
-     width: 40px;
-     padding: 3px;
-     color: #0065FC;
-     background-color: #c4bdbd;
-     font-size: 30px;
-     border: 1.8px #F2F2F2 solid;
-     border-radius: 15px 0 0 15px;
-}
-.icoinfo{
-     margin-left: 50px;
-}
-.icoinfo i{
-     color: #0065FC;    
-     font-size: 14px;
-     margin-right: 5px;
-     margin-bottom: 20px;
-     border-radius: 50px;
-     border: 1px solid grey;
-     padding: 5px 10px;
-}
-#Filtr{
-     font-size: 25px;
-     display: flex;
-     justify-content: baseline;
-     margin-left: 60px;
-}
-.spanico{
-     display: flex;
-     justify-content: baseline;
-     justify-content: space-between;
-
-}
-.icoEco{
-     color: #0065FC;
-     padding: 6px;
-     background-color: #DEEBFF;
-     border: 1px solid rgb(189, 185, 185);
-     border-radius: 50px 50px 50px 50px;
-}
-.Eco{
-     border: 1px solid rgb(189, 185, 185);
-     border-radius: 50px 50px 50px 50px;
-     padding: 4px;
-     padding-left: 0px; 
-     margin-right: 50px; 
-     margin-left: 30px;   
-}
-section{
-     display: flex; 
-}
-section img{
-     width: 290px;
-     height: 140px;
-     border-radius: 25px 25px 0px 0px;
-     float: left;
-     margin: auto;
-}
-.A1{
-    border: 1px solid rgb(241, 239, 239);
-    border-radius: 25px 25px 25px 25px;
-    background-color: rgb(241, 239, 239); 
-    margin-bottom: 60px; 
-    padding: 10px 0px 10px 20px;
-    margin: auto;
-    flex: 3;
-}
-#HBRG1{
-     display: flex;
-     align-items: flex-start;
-     justify-content: space-between;
-     margin: auto;
-     margin-bottom: 20px;
-     padding: 20px;
-}
-#HBRG2{
-     display: flex;
-     align-items: flex-start;
-     justify-content: space-between;
-     margin: auto; 
-     padding: 20px;
-}
-h4{
-     font-size: 20px;
-     margin-left: 70px;
-     font-weight: bolder;
-     justify-content: space-around;
-}
-.Aub{
-    border: 1px solid white;
-    border-radius: 25px 25px 25px 25px;
-    padding: 8px;
-    background-color: white; 
-    box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-    margin-right: 60px;
-    font-size: 15px;
-}    
-.Aff{
-     display: flex;
-     margin: 40px 30px 10px 70px;
-     font-weight: bolder;
-}
-aside{
-    flex: 1.2;
-    position: relative;
-    justify-items: stretch;
-    margin-right: 70px;
-    margin-left: 50px;
-    flex-direction: column;
-    border: 1px solid rgb(241, 239, 239);
-    background-color: rgb(241, 239, 239);
-    border-radius: 25px;
-    font-size: 15px;
-}
-aside img{
-     width: 160px;
-     height: 140px;
-     float: left;
-     border-radius: 25px 0px 0px 25px; 
-     margin: auto; 
-     margin-right: 15px;
-
-}
-.Actii{
-     margin-left: 80px;
-}
-aside span{
-     float: right;
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
-.sol{
-     margin: auto;
-     margin-bottom: 50px;
-     width: 420px;
-     height: 140px;
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white;
-     padding: 10px 10px 10px 10px;
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-}
-.fas-fa-star-bleu{
-  color: #0065FC;
-}
-.fas-fa-star-grey{
-     color: gray;
-}
-.S2{  
-     justify-content: space-around;
-     display: flex;
-     margin: auto;
-}
-.S2 img{
-     border-radius: 25px 25px 0px 0px;
-     margin-bottom: 10px;
-}
-h5{
-     margin-left: 20px;
-     font-weight: bold;
-     font-size: 15px;
-     text-align:left;
-}
-.ao{
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white; 
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-     margin-bottom: 30px;
-}
-.ao1{
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white; 
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-     margin-bottom: 20px;
-}
-.ao2{
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white; 
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-     margin-bottom: 30px;
-}
-.ao3{
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white; 
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-     margin-bottom: 20px;
-}
-.ao4{
-     border: 1px solid white;
-     border-radius: 25px 25px 25px 25px;
-     background-color: white; 
-     box-shadow: 2px 1px 5px  rgb(226, 223, 223);
-}
-.port{
-     width: 330px;
-     height: 450px;    
-}
-.Mègues{
-     width: 330px;
-     height: 190px;
+.flexAround{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
 } 
-.Iles{
-     width: 330px;
-     height: 195px; 
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.Cal{
-     width: 330px;
-     height: 450px;
+.flexColumncenter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} 
+.flexColumnAround{
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-around;
+} 
+.flexColumnBetween{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
-.Ndame{
-     width: 330px;
-     height: 195px;
+.DcoNone{
+   text-decoration: none;
 }
-.longch{
-     width: 330px;
-     height: 195px;
+.BorderNone{
+   border: none;
 }
-footer{
-     color: black;
-     margin-left: 5px;
-     border: 1px solid rgb(241, 239, 239);
-     border-radius: 5px 5px 5px 5px;
-     background-color: rgb(241, 239, 239); 
-     display: flex;
-     padding-left: 20px;
-     margin-bottom: 30px;
+.TxtStrng{
+   font-weight: bold;
+}
+.colorBleu{
+   color: #0065FC;
+}
+.colorBlclr{
+   color: #DEEBFF;
+}
+.colorGrey{
+   color: #F2F2F2;
+}
+.bckGrey{
+   background-color: #F2F2F2;
+}
+.bckBleu{
+   background: #0065FC;
+}
+.bckBlclr{
+   background: #DEEBFF;
+}
 
+/*NaV */
+.sizeLinks{
+   width: 45%;
 }
-.foot a{
-     color: black;
-     text-decoration: none;
+.sizeLink{
+   width: 140px;
+   height: 99px;
 }
-.foot{
-     margin-right: 400px;
-     margin-bottom: 20px;
+.colorLinkAC{
+   color: #0065FC;
 }
-@media all and (orientation: portrait)
-{
-    #bloc_page
-    {
-        width: auto;
-    }
-    section{
-     display: flex; 
-     flex-direction: column;
+.colorLinkB{
+   color: black;
 }
+.sizeNav{
+   height: 100px;
 }   
+.borderNav{
+   border-top: 1px solid transparent;
+}
+.borderNav:hover{
+   border-top: 1px solid #0065FC;
+   cursor: pointer;
+}
+.borderNav:hover > a{        
+  color:#0065FC;
+}   
+.MrgLogo{
+   margin-bottom: 7px;
+}
+/* HeaDr */
+.borderSrch{
+   width: 400px;
+   border-radius: 10px;
+   border: 0.5px solid #F2F2F2;
+} 
+.PaDSrch{
+   padding-left: 20px;
+}
+.sizeIcon{
+   height: 50px;
+   width: 50px;
+   border-radius: 10px 0 0 10px;
+}
+.Search{
+   height: 50px;
+   width: 230px;
+   font-size: 18px;
+   color: black;
+   font-weight: bold;
+}
+
+.Boutsrch{
+   height: 50px;
+   width: 120px;
+   color: white;
+   cursor: pointer;
+   border-radius: 0 10px 10px 0;
+}
+.Boutsrch:hover{
+   color: #0065FC;
+   background-color: #F2F2F2;
+}
+/*FLTR */
+.marGFiltr{
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+.mArgFltTitr{
+   margin-right: 20px;
+
+}
+.Fltr{
+display: flex;
+align-items: center;
+}
+.FltrTxtIcon{
+   border: 2px solid #f2f2f2;
+   height: 50px;
+   border-radius: 30px;
+   margin-right: 20px;
+}
+.FltrTxtIcon:hover > .FltrTxt{
+   color: #0065FC;
+}
+.FltrTxtIcon:hover > .FiltrIcon{
+   color: white;
+   background-color: #0065FC;
+}
+.FiltrIcon{
+   margin-left: -2px;
+   border-radius: 25px;
+   width: 52px;
+   height: 52px;
+   color: #0065FC;
+   background-color: #DEEBFF;
+}
+.FltrTxt{
+   height: 50px;
+   padding-left:20px ;
+   padding-right: 20px;
+   border-radius: 0 25px 25px 0px;
+}
+/*Info IcoN */
+.InfO{
+   display: flex;
+   align-items: center;
+}
+.PrntIcoN{
+   width: 20px;
+   height: 20px;
+   border: 2px solid #f2f2f2;
+   border-radius: 25px;
+   margin-right: 2px;
+}
+/* HBRGMENT*/
+.sizeHBrgmT{
+   flex: 2;
+   height: 650px;
+   margin-right: 20px;
+   border-radius: 10px;
+}
+.sizePoPu{
+   flex: 1;
+   height: 650px;
+   margin-left: 20px;
+   border-radius: 10px;
+}
+.BlokHbGmTs{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.sousBlcHBgrmt{
+   width: 30%;
+   height: auto;
+   background-color: white;
+   padding: 1%;
+   border-radius: 20px;
+}
+.sousBlcDetailHBgrmt{
+   width: 80%;
+}
+.BlcHBrgmT1{
+   margin-bottom: 10px;
+}
+.BlcHBrgmT2{
+   margin-top: 10px;
+}
+.ImgHBRGT1{
+   background-image: url("../images/hebergements/4_small/aubrgCannebiere.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+.ImgHBRGT2{
+   background-image: url("../images/hebergements/4_small/hotelduPort.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+.ImgHBRGT3{
+   background-image: url("../images/hebergements/4_small/lesMouettes.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+.ImgHBRGT4{
+   background-image: url("../images/hebergements/4_small/HotelMer.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+.ImgHBRGT5{
+   background-image: url("../images/hebergements/4_small/lePanier.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+.ImgHBRGT6{
+   background-image: url("../images/hebergements/4_small/Amina.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+/*PoPulaire*/
+
+.blcPoPU{
+padding-left: 20px;
+padding-right: 20px;
+}
+.BlkPoPu12{
+   margin-bottom: 22px;
+}
+.sousBlcDetailPoPu{
+   width: 60%;
+   padding-left: 5%;
+}
+.sousBlcPoPu{
+   background-color: white;
+   height: auto;
+   padding: 1% 0 1% 1%;
+   border-radius: 20px;
+}
+.imgPoPu1{
+   background-image: url("../images/hebergements/4_small/soleilDuMatin.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 35%;
+   height: 160px;
+   border-radius: 15px 0 0 15px; 
+}
+.imgPoPu2{
+   background-image: url("../images/hebergements/4_small/coeureauchbrhote.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 35%;
+   height: 160px;
+   border-radius: 15px 0 0 15px; 
+}
+.imgPoPu3{
+   background-image: url("../images/hebergements/4_small/toutbleublanc.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 35%;
+   height: 160px;
+   border-radius: 15px 0 0 15px; 
+}
+/*etoile*/
+.raiting {
+   direction: ltr;
+}
+.raiting a {
+   color: #aaa;
+   text-decoration: none;
+} 
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+/* Si +classe '.gold', sera jaune. */
+.fa-star.bleu {
+	color: #0065FC;
+}
+/*Activités*/
+.ACTiVmars{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.BlkACT{
+   width: 100%;
+   height: 600px;
+}
+.BlkACT2356{
+   width: 23%;
+   height: 600px;
+}
+   
+/*settingbloc*/
+.sousBlcActv{
+   width: 23%;
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+/*endsettingbloc*/
+.heigTtr{
+   height: 70px;
+}
+.sousBlcActv2356{
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.TtrActV{
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding-left: 5%;
+   width: 95%;
+}
+.imgActv1{
+   background-image: url("../images/activites/4_small/VieuxPort.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 530px;
+   border-radius: 15px 15px 0 0;
+}
+.imgActv2{
+   background-image: url("../images/activites/4_small/pomègues.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 250px;
+   border-radius: 15px 15px 0 0;
+}
+.imgActv3{
+   background-image: url("../images/activites/4_small/IlesFrioul.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 150px;
+   border-radius: 15px 15px 0 0;
+}
+.imgActv4{
+   background-image: url("../images/activites/4_small/Calanques.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 530px;
+   border-radius: 15px 15px 0 0;
+}
+.imgActv5{
+   background-image: url("../images/activites/4_small/NTrDmDlaGRD.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 200px;
+   border-radius: 15px 15px 0 0;
+}
+.imgActv6{
+   background-image: url("../images/activites/4_small/ParcLnChmp.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 200px;
+   border-radius: 15px 15px 0 0;
+}
+/*footer*/
+
+#foot{
+    width: 300px;
+    margin: 100px;
+    display:flex;
+    justify-content: flex-start;
+}
+.sizeblkfoot{
+   height: 150px;
+}
+.navhov:hover > a{        
+   color:#0065FC;
+ } 
+ .navhov:hover{
+   color: #0065FC;
+   cursor: pointer;
+ } 
+   
