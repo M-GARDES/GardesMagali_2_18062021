@@ -81,11 +81,11 @@
 .borderNav{
    border-top: 1px solid transparent;
 }
-.borderNav:hover{
+.borderNav:hover,.activeborder{
    border-top: 1px solid #0065FC;
    cursor: pointer;
 }
-.borderNav:hover > a{        
+.borderNav:hover > a,.activeborder>a{        
   color:#0065FC;
 }   
 .MrgLogo{
@@ -419,4 +419,3 @@ padding-right: 20px;
    color: #0065FC;
    cursor: pointer;
  } 
-   
