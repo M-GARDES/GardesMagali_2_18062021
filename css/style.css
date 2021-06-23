@@ -60,7 +60,71 @@
 .bckBlclr{
    background: #DEEBFF;
 }
+/****** Debut Entete *******/
 
+.header{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   /* border: 1px solid black; */
+}
+
+.header_menu_nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.header a{
+   text-decoration: none;  
+   height: 80px; 
+   line-height: 80px;
+   display: inline-block;
+}
+
+.header nav ul li a{
+   color: black;
+   text-align: center;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.header .header__insp a{
+   color: #0065FC;
+   font-weight: 700;
+}
+
+.header .header--height{
+   height: 80px;
+   line-height: 80px;
+}
+.header nav ul li{
+   list-style: none;
+   margin: 0;
+}
+ul{   
+   margin: 0;
+   padding: 0;
+}
+.header nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+
+.header nav ul a.header--active{
+   color: #0065FC;
+   border-top: #0065FC solid 2px;
+}
+
+.header nav ul a:hover{
+   color: #0065FC;
+   border-top: #0065FC solid 2px;
+   text-decoration: none;
+}
+/****** Fin Entete *******/
 /*NaV */
 .sizeLinks{
    width: 45%;
@@ -87,7 +151,11 @@
 }
 .borderNav:hover > a,.activeborder>a{        
   color:#0065FC;
-}   
+} 
+.bordernav12{
+   display:flex;
+   justify-content: space-between;
+} 
 .MrgLogo{
    margin-bottom: 7px;
 }
@@ -419,3 +487,14 @@ padding-right: 20px;
    color: #0065FC;
    cursor: pointer;
  } 
+ @media all and (max-width: 1024px)
+ {
+     #bloc_page
+     {
+         width: auto;
+     }
+     section{
+      display: flex; 
+      flex-direction: column;
+     }
+ }
