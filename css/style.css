@@ -486,9 +486,79 @@ padding-right: 20px;
  .navhov:hover{
    color: #0065FC;
    cursor: pointer;
- } 
+ }
+ /*tablette */
+
  @media all and (max-width: 1024px)
  {
+    .header
+    {
+       align-items: flex-start;
+       flex-direction: column;
+      }
+ 
+     .header_menu_nav{
+         width: 99%;
+         position: absolute;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+ 
+     .header--el:nth-child(1){
+         order: 2;
+     }
+ 
+     .header--el:nth-child(2){
+         order: 1;            
+         align-self: flex-end;
+         justify-self: flex-start;    
+     }
+ 
+     .logo{
+         padding-left: 20px;
+     }
+ 
+     .header__insp{
+         padding-right: 20px;
+     }
+ 
+     .card2-list{
+         display: flex;
+     }
+     
+ 
+     div.header--height-mob.header--height, div.header--height-mob.header--height a{
+         height: 40px;
+         line-height: 40px;
+     }
+ 
+     .header__nav,.header nav ul{
+         width: 100%;
+         
+     }
+    
+     .header nav ul li a{
+         height: 40px; 
+         line-height: 40px;
+         border-bottom: #F2F2F2 solid 2px;
+     }
+    
+     .header nav ul li a,.header nav ul li{
+         padding:0;
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .header nav ul a.header--active{
+         border-top: none;
+         border-bottom: #0065FC solid 2px;
+     }
+     
+     .header nav ul a:hover{
+         border-top: none;
+         border-bottom: #0065FC solid 2px;
+     }  
      #bloc_page
      {
          width: auto;
@@ -497,4 +567,8 @@ padding-right: 20px;
       display: flex; 
       flex-direction: column;
      }
- }
+    .FILTRE
+    {
+       margin-top: 50px;
+    }
+   }
