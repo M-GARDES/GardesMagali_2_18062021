@@ -70,7 +70,11 @@
    height: 80px;
    /* border: 1px solid black; */
 }
-
+.MrgLogo
+{
+   width: 97px ;
+   height: 45px;
+}
 .header_menu_nav{
    display: flex;
    align-items: center;
@@ -273,53 +277,58 @@ align-items: center;
    margin-top: 10px;
 }
 .ImgHBRGT1{
-   background-image: url("../images/hebergements/4_small/aubrgCannebiere.jpg");
+   background-image: url("../images/hebergements/3_medium/aubrgCannebiere.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 120px;
    border-radius: 15px 15px 0 0;
+   object-fit: cover;
 }
 .ImgHBRGT2{
-   background-image: url("../images/hebergements/4_small/hotelduPort.jpg");
+   background-image: url("../images/hebergements/3_medium/hotelduPort.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 120px;
    border-radius: 15px 15px 0 0;
+   object-fit: cover;
 }
 .ImgHBRGT3{
-   background-image: url("../images/hebergements/4_small/lesMouettes.jpg");
+   background-image: url("../images/hebergements/3_medium/lesMouettes.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 120px;
    border-radius: 15px 15px 0 0; 
+   object-fit: cover;
 }
 .ImgHBRGT4{
-   background-image: url("../images/hebergements/4_small/HotelMer.jpg");
-   background-size: cover;
-   background-position: center;
-   width: 100%;
-   height: 120px;
-   border-radius: 15px 15px 0 0;  
-}
-.ImgHBRGT5{
-   background-image: url("../images/hebergements/4_small/lePanier.jpg");
+   background-image: url("../images/hebergements/3_medium/HotelMer.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 120px;
    border-radius: 15px 15px 0 0; 
+   object-fit: cover;
 }
-.ImgHBRGT6{
-   background-image: url("../images/hebergements/4_small/Amina.jpg");
+.ImgHBRGT5{
+   background-image: url("../images/hebergements/3_medium/lePanier.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 120px;
    border-radius: 15px 15px 0 0;
-  
+   object-fit: cover;
+}
+.ImgHBRGT6{
+   background-image: url("../images/hebergements/3_medium/Amina.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+   object-fit: cover;
 }
 /*PoPulaire*/
 
@@ -347,31 +356,34 @@ padding-right: 20px;
    border-radius: 20px;
 }
 .imgPoPu1{
-   background-image: url("../images/hebergements/4_small/soleilDuMatin.jpg");
-   background-size: cover;
-   background-position: center;
-   width: 35%;
-   height: 160px;
-   border-radius: 15px 0 0 15px;
-   cursor: pointer;  
-}
-.imgPoPu2{
-   background-image: url("../images/hebergements/4_small/coeureauchbrhote.jpg");
+   background-image: url("../images/hebergements/3_medium/soleilDuMatin.jpg");
    background-size: cover;
    background-position: center;
    width: 35%;
    height: 160px;
    border-radius: 15px 0 0 15px;
    cursor: pointer;
+   object-fit: cover; 
 }
-.imgPoPu3{
-   background-image: url("../images/hebergements/4_small/toutbleublanc.jpg");
+.imgPoPu2{
+   background-image: url("../images/hebergements/3_medium/coeureauchbrhote.jpg");
    background-size: cover;
    background-position: center;
    width: 35%;
    height: 160px;
    border-radius: 15px 0 0 15px;
-   cursor: pointer;    
+   cursor: pointer;
+   object-fit: cover;
+}
+.imgPoPu3{
+   background-image: url("../images/hebergements/3_medium/toutbleublanc.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 35%;
+   height: 160px;
+   border-radius: 15px 0 0 15px;
+   cursor: pointer; 
+   object-fit: cover;  
 }
 /*etoile*/
 .raiting {
@@ -409,6 +421,7 @@ padding-right: 20px;
    width: 23%;
    border-radius: 15px;
    box-shadow: 5px 5px 5px 1px #f2f2f2;
+   position: relative;
 }
 /*endsettingbloc*/
 .heigTtr{
@@ -418,6 +431,7 @@ padding-right: 20px;
    width: 100%;
    border-radius: 15px;
    box-shadow: 5px 5px 5px 1px #f2f2f2;
+   position: relative;
 }
 .TtrActV{
    display:flex;
@@ -427,58 +441,64 @@ padding-right: 20px;
    width: 95%;
 }
 .imgActv1{
-   background-image: url("../images/activites/4_small/VieuxPort.jpg");
+   background-image: url("../images/activites/3_medium/VieuxPort.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 530px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 .imgActv2{
-   background-image: url("../images/activites/4_small/pomègues.jpg");
+   background-image: url("../images/activites/3_medium/pomègues.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 250px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 .imgActv3{
-   background-image: url("../images/activites/4_small/IlesFrioul.jpg");
+   background-image: url("../images/activites/3_medium/IlesFrioul.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 150px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 .imgActv4{
-   background-image: url("../images/activites/4_small/Calanques.jpg");
+   background-image: url("../images/activites/3_medium/Calanques.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 530px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 .imgActv5{
-   background-image: url("../images/activites/4_small/NTrDmDlaGRD.jpg");
+   background-image: url("../images/activites/3_medium/NTrDmDlaGRD.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 200px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 .imgActv6{
-   background-image: url("../images/activites/4_small/ParcLnChmp.jpg");
+   background-image: url("../images/activites/3_medium/ParcLnChmp.jpg");
    background-size: cover;
    background-position: center;
    width: 100%;
    height: 200px;
    border-radius: 15px 15px 0 0;
    cursor: pointer;
+   object-fit: cover;
 }
 /*footer*/
 
@@ -505,6 +525,7 @@ padding-right: 20px;
     {
        align-items: flex-start;
        flex-direction: column;
+       margin-bottom: 10px;
       }
  
      .header_menu_nav{
@@ -513,6 +534,7 @@ padding-right: 20px;
          display: flex;
          flex-direction: column;
          align-items: center;
+         font-size: x-large;
      }
  
      .header--el:nth-child(1){
@@ -571,7 +593,7 @@ padding-right: 20px;
       display: flex; 
       flex-direction: column;
      }
-    .filtext
+    .filtext 
     {
        margin-top: 20px;
     }
