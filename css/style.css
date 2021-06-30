@@ -145,6 +145,12 @@ ul{
 }
 .sizeNav{
    height: 100px;
+}
+.Boutsrch .label{
+   display: inline;
+}
+.Boutsrch .icon{
+   display: none;
 }   
 .borderNav{
    border-top: 1px solid transparent;
@@ -205,6 +211,14 @@ ul{
    margin-right: 20px;
 
 }
+.ListFiltr
+{
+ display: flex;
+ justify-content: flex-start; 
+ align-items: flex-start; 
+ flex-wrap: wrap;
+
+}
 .Fltr{
 display: flex;
 align-items: center;
@@ -235,6 +249,7 @@ align-items: center;
    padding-left:20px ;
    padding-right: 20px;
    border-radius: 0 25px 25px 0px;
+   font-weight: bold;
 }
 /*Info IcoN */
 .InfO{
@@ -527,7 +542,7 @@ padding-right: 20px;
        flex-direction: column;
        margin-bottom: 10px;
       }
- 
+      
      .header_menu_nav{
          width: 99%;
          position: absolute;
@@ -558,12 +573,26 @@ padding-right: 20px;
          height: 40px;
          line-height: 40px;
      }
- 
+      .header nav ul a.header--active{
+         border-bottom: #0065FC solid 2px;
+         border-top: none;
+      }
+     
      .header__nav,.header nav ul{
-         width: 100%;
-         
+         width: 100%;   
      }
-    
+     .Boutsrch .label{
+      display: none;
+   }
+   .Boutsrch .icon{
+      display: inline;
+   } 
+   .Boutsrch{
+      width: 50px;
+   }
+   .borderSrch{
+      width: 330px;
+   }
      .header nav ul li a{
          height: 40px; 
          line-height: 40px;
@@ -593,16 +622,34 @@ padding-right: 20px;
       display: flex; 
       flex-direction: column;
      }
+    .flexBetween
+    {
+     margin-bottom: 30px;
+    }
     .filtext 
     {
        margin-top: 20px;
     }
+    .FltrTxt
+    {
+       margin-left: 80px;
+       margin-right: 80px;
+       font-size: 25px;
+
+    }
+    .FltrTxtIcon:nth-child(3) .FltrTxt,.FltrTxtIcon:nth-child(4) .FltrTxt{
+    
+      margin-left: 140px;
+      margin-right: 140px;
+   }
+    
     .Fltr
     {
       align-items: flex-start;
       flex-wrap: wrap;
       flex-direction: row;      
     }
+
     .sizeHBrgmT
     {
       order: 4; 
@@ -618,12 +665,14 @@ padding-right: 20px;
     {  
       width: 98%; 
       flex-direction: column;
+      flex-wrap: wrap;
  
     }
     .BlcHBrgmT2
     {
       flex-direction: column;
       width: 98%;
+      flex-wrap: wrap;
     }
     .sizePoPu
     {
