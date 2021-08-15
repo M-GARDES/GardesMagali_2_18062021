@@ -393,7 +393,7 @@ ul{
     /* border: 1px solid black; */
 }
 
-.activite-card__short .card-title, .activite-card__long .card-title{
+.activite-card__short .card-title,.activite-card__long .card-title{
     /* display: flex;
     align-items: center; */
     padding-left: 20px;
@@ -407,13 +407,13 @@ ul{
     margin-bottom: 20px;
 }
 
+
 .activite-card__short img{
     width: 100%;
     height: 200px;
     border-radius:20px 20px 0 0;
     object-fit: cover;
 }
-
 
 
 
@@ -427,12 +427,45 @@ ul{
 .activite-card__long{
     height: 500px;
 }
+.activite-card__short--height-long{
+    height: 280px;
+}
+
+.activite-card__short--height-long img{
+    height: 240px;
+}
+
+.activite-card__short--height-short{
+    height: 200px;
+}
+
+.activite-card__short--height-short img{
+    height: 160px;
+}
+
+
+.activite-card__short--height-long2{
+    height: 260px;
+}
+
+.activite-card__short--height-long2 img{
+    height: 220px;
+}
+
+.activite-card__short--height-short2{
+    height: 220px;
+}
+
+.activite-card__short--height-short2 img{
+    height: 180px;
+}
 /******Fin activité ******/
 
 /******Début Footer ******/
  .footer{   
      display:flex;
-     justify-content: flex-start;
+     justify-content: space-between;
+
      background-color: var(--color-gris);
      padding: 20px 40px 20px 30px;
  }
@@ -444,7 +477,7 @@ ul{
 
  .footer ul{
      width: 100%;     
-    margin-right: 200px;
+    margin-right: 510px;
  }
 
 /******Fin Footer ******/
